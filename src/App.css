@@ -1,0 +1,207 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color:  #f5ebdc;
+}
+#firstUl{
+  display: flex;
+  /* gap: 100px; */
+  list-style-type: none;
+  background-color: #f5ebdc;
+  height: 56px;
+  align-items: center;
+  box-shadow: 0px -1px 3px 0px black;
+z-index: 1;
+position: fixed;
+width: 100%;
+/* position: absolute; */
+top: 0;
+}
+@font-face {
+  font-family:'flame' ;
+  src: url("C:\Users\shaik\Downloads\flama-bold-cufonfonts\Flama-Bold.otf");
+  font-weight: normal;
+    font-style: normal;
+}
+#hamburger{
+  margin-left: 366px;
+}
+#logo{
+  margin-left: 480px;
+}
+#profLogo{
+  margin-left: 364px;
+  margin-right: 20px;
+}
+#logo{
+  height: 20px;
+  width: 167px;
+}
+#firstUl li button{
+  display: flex;
+  background-color:#d62300; 
+  color: #f5ebdc;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 10px;
+  outline: none;
+  font-weight: 600;
+  border: none;
+  border-radius: 30px;
+  width: 108px;
+  height: 34px;
+
+}
+#firstUl li button:hover{
+  background-color:rgb(190, 36, 6);
+}
+#bodyFirstH1{
+  width: 366px;
+  height: 145px;
+  font-size: 60px;
+  font-family:'flame-bold';
+}
+#sybko{
+  margin-top: 10px;
+  margin-bottom: 21px;
+}
+#preFirstDiv{
+  display: block;
+}
+#but1{
+  background-color: #d62300;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#but2{
+  background-color: #f5ebdc;
+  border: 1px solid #d62300;
+  color: #d62300;
+}
+
+.twoBut{
+  width: 300px;
+  height: 55px;
+  font-size: 18px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+margin-left: 13px;
+  outline: none;
+  border: none;
+  border-radius: 53px;
+}
+#scooter1{
+  height: 15px;
+  width: 15px;
+}
+#mainDiv1{
+  /* width: 80%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  gap: 142px;
+  margin-left: -52px;
+  margin-top: 55px;
+}
+#gif img{
+  width: 699px;
+  height: 383px;
+}
+.common{
+  width: 580px;
+  height: 497px;
+  /* border: 2px solid; */
+  border-radius: 20px;
+  /* width: fit-content; */
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 1px 2.22px;;
+}
+#CardsMain{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#mainSub{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:12px;
+  /* margin-left: 54px; */
+}
+.common img{
+  /* width: fit-content; */
+  width: 580px;
+  height: 290px;
+  border-radius: 18px 18px 0px 0px;
+}
+.sub h2{
+  font-size: 24px;
+  /* margin-left: 8px; */
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.sub{
+  padding: 20px;
+  font-family:cursive;
+  color: #502314;
+  /* background-color: white; */
+  position: relative;
+}
+.sub div{
+  font-size: 13px;
+  font-family:'Courier New', Courier, monospace;
+  margin-bottom: 8px;
+}
+.sub a{
+  color: #502314;
+}
+.sub button{
+  color: #d62300;
+    outline: none;
+    border: 1px solid #d62300;
+    background-color: white;
+    padding: 10px 15px;
+    font-weight: 600;
+    border-radius: 33px;
+    position: absolute;
+    left: 456px;
+    bottom: -36px;
+}
+#footerDiv{
+  margin-top: 180px;
+  display: flex;
+  justify-content: center;
+  background-color: #ebe2d3;
+  gap: 70px;
+
+  height: 432px;
+}
+#scanner img{
+  width: 473px;
+  height: 431px;
+  margin-top: -51px;
+}
+#install img{
+  margin-top: 42px;
+}
+#lastFooter{
+  height: 57px;
+  background-color: #502314;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f1e6d7;
+  font-size: 12px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
